@@ -19,7 +19,7 @@ describe("get jobs", function() {
     var jobs;
 
     before(function(done) {
-        jobService.connectDB('mongodb://localhost/jobfinder')
+        jobService.connectDB('mongodb://localhostadasd/jobfinder')
             .then(resetJobs)
             .then(jobService.seedJobs)
             .then(jobService.findJobs)
